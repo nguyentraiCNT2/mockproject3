@@ -1,0 +1,60 @@
+{
+  "name": "templates",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.12",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.3",
+    "bootstrap": "^5.3.2",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "date-fns": "^3.0.6",
+    "multer": "^1.4.5-lts.1",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-image-file-resizer": "^0.4.8",
+    "react-image-magnifiers": "^1.4.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "react-spring": "^9.7.3",
+    "slick-carousel": "^1.8.1",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

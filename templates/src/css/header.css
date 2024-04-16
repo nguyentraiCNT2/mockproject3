@@ -1,0 +1,217 @@
+/* Header */
+body {
+  background: #edebeb;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  /* Màu nền của header */
+  z-index: 999;
+  /* Đảm bảo header hiển thị trên tất cả các phần tử khác */
+  /* Thêm các thuộc tính khác cho giao diện header của bạn */
+}
+
+.TopBar {
+  background-color: #000;
+  /* Màu đen cho header */
+  color: #fff;
+  /* Màu trắng cho nền chữ */
+
+}
+
+/* Navbar */
+.Menu {
+height: 55px;
+  background-color: #fff;
+  /* Màu đỏ cho menu */
+  border-bottom: 2px solid #cacaca;
+
+}
+
+/* Navbar Brand (Logo) */
+.Navbar.Brand {
+  color: #fff;
+  /* Màu trắng cho chữ của logo */
+}
+
+/* Search Input */
+.FormControl {
+  background-color: #fff;
+  /* Màu trắng cho ô nhập liệu */
+  color: #000;
+  /* Màu đen cho chữ trong ô nhập liệu */
+  border: #fff;
+
+
+}
+
+.search-input-text {
+  font-size: 18px;
+  padding-left: 30px;
+
+  padding-bottom: 10px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.search-input-text:hover {
+  border: none;
+}
+
+.search-button {
+  width: 70px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* Navbar Links */
+.Nav.Link:hover {
+  font-family: Poppins-Regular;
+  background-color: none;
+  border: none;
+  /* Màu trắng cho các liên kết */
+}
+
+/* Navbar Toggle Button (Mobile) */
+.Navbar.Toggle {
+  border: 1px solid #fff;
+  /* Viền màu trắng cho nút toggle */
+}
+
+/* Cart Icon */
+.fa-shopping-bag {
+  color: #d9534f;
+  /* Màu đỏ cho biểu tượng giỏ hàng */
+}
+
+/* Avatar Icon */
+.img-profile {
+  padding: 5px 5px;
+}
+
+.Dropdown:hover {
+  font-family: Poppins-Regular;
+  background-color: none;
+  border: none;
+  /* Màu trắng cho các liên kết */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+
+  border: 1px solid #000000;
+  /* Viền màu trắng cho dropdown menu */
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: none;
+  border: none;
+  color: #000 !important;
+}
+
+.dropdown-item:hover {
+  color: #ff0800 !important;
+}
+
+.nav-link-custom {
+  padding: 0;
+  line-height: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #000 !important;
+}
+
+.nav-link-custom:hover {
+  color: #ff0800 !important;
+}
+
+/* Active Link */
+.nav-link-custom.active {
+  border-bottom: 2px solid #fff;
+  /* Đường gạch chân màu trắng cho liên kết đang hoạt động */
+}
+
+/* Dropdown Toggle Button Hover */
+.NavLink:hover .dropdown-toggle {
+  background-color: #fff;
+  /* Màu trắng khi hover */
+  color: #ff0800 !important;
+  /* Màu đen cho chữ khi hover */
+
+}
+
+.menu-lable {
+  background-color: #fff;
+  border: none;
+}
+
+/* Dropdown Items Hover */
+.menu-lable:hover .dropdown-menu a {
+  color: #000 !important;
+  /* Màu đen khi hover trên các mục dropdown */
+  background-color: #fff;
+  /* Màu trắng khi hover trên các mục dropdown */
+  border: #fff;
+}
+
+.menu-lable:hover {
+  border: none;
+}
+
+.search {
+  background-color: #ff0800;
+  color: #fff;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search:hover {
+  background-color: #b30600;
+  color: #fff;
+  border: none;
+}
+
+
+.NavLink .img-profile {
+  width: 50px;
+  /* Đặt kích thước ảnh theo chiều rộng mong muốn */
+  height: auto;
+  /* Tự động tính chiều cao để giữ tỉ lệ */
+  border-radius: 50%;
+  /* Đảm bảo ảnh là hình tròn */
+  margin-right: 10px;
+  /* Khoảng cách giữa ảnh và nội dung bên phải */
+}
+
+/*phan trang*/
+.page-link {
+  color: #ff0000;
+}
+
+.page-link:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  /* Màu viền của trang đang được chọn */
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #ff0000;
+  /* Màu nền của trang đang được chọn */
+  color: #fff;
+  /* Màu chữ của trang đang được chọn */
+  border-color: #ff0000;
+  /* Màu viền của trang đang được chọn */
+}

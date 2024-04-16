@@ -1,0 +1,44 @@
+.sort-button {
+    margin-top: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    font-family: Poppins-Regular;
+    font-weight: 500;
+}
+
+.sort-button:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.loc-form {
+    width: 40%;
+    height: 600px;
+    z-index: 1000;
+}
+
+
+
+.color-set {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: #000 solid 1px;
+    padding: 5px;
+    margin: 10px;
+
+}
+.button-loc{
+    border: #000 solid 1px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: #000;
+}
+.button-loc:hover{
+    background-color: #ff0000;
+    color: #fff;
+    border: #ff0000 solid 1px;
+}

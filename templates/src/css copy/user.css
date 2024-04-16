@@ -1,0 +1,103 @@
+.navbar-dark{
+  background-color: #4e73df; 
+}
+/* Màu chữ và nền của menu đang chọn */
+.navbar-dark .nav-link-custom.active {
+    background-color: #4e73df; /* Màu xanh dương */
+  }
+  /* Màu chữ của title trong NavDropdown */
+.navbar-dark .nav-link-custom .navbar-nav .nav-item .nav-link {
+    color: #f8f9fc !important; /* Màu trắng */
+  }
+  .navbar-dark .nav-link-custom {
+    color: #f8f9fc; /* Màu trắng */
+    text-align: left;
+    font-size: 13px;
+    /* border-bottom: 1px solid white; */
+  }
+  .navbar{
+
+  }
+  /* Màu chữ của menu khi con trỏ chuột di chuyển vào */
+  .navbar-dark .nav-link-custom:hover {
+    color: #bac1d8; /* Màu trắng */
+  }
+  /* Menu.css */
+.fixed-menu {
+    position: fixed;
+    width: 200px; /* Thay đổi kích thước menu tùy theo ý muốn của bạn */
+    height: 100%; /* Đảm bảo menu có chiều cao 100% của trình duyệt */
+    overflow-y: auto; /* Hiển thị thanh cuộn nếu nội dung vượt quá kích thước */
+  }
+  
+  .fixed-menu .nav-link {
+    color: #fff; /* Màu chữ cho các mục menu */
+  }
+  .navbar {
+    height: 100%;
+  }
+  
+  /* Thêm padding cho giữa các mục link */
+  .navbar-nav {
+    padding-left: 15px; /* Có thể điều chỉnh giá trị theo mong muốn */
+  }
+  
+  /* Chỉnh sửa chiều rộng và margin của mục link */
+  .navbar-nav .nav-link-custom {
+    width: auto;
+    margin-right: 0;
+  }
+
+
+.user-form-container {
+    background-color: #f8f9fa; /* Màu nền của container */
+    padding: 20px;
+    border-radius: 8px; /* Bo tròn góc container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho container */
+  }
+  
+  .user-form {
+    max-width: 400px; /* Giới hạn chiều rộng của form */
+  }
+  
+  /* Thêm các tùy chỉnh CSS cho các Input Field nếu cần */
+  @media print {
+    body {
+      font-size: 12px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .input-group > div {
+      flex: 0 0 33%;
+      max-width: 33%;
+    }
+
+    .user-details,
+    .order-details-table,
+    .order-status-selects {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .order-details-table img {
+      max-width: 80px;
+      max-height: 80px;
+    }
+
+    .order-details-table th,
+    .order-details-table td {
+      text-align: center;
+    }
+
+    .order-status-selects select {
+      width: 100%;
+    }
+
+    .btn {
+      display: none;
+    }
+  }

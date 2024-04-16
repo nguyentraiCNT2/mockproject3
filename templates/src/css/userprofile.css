@@ -1,0 +1,15 @@
+.menu-order-item{
+    font-family: Poppins-Regular;
+    text-decoration: none;
+    margin: 20px 20px ;
+    font-style: 40px;
+    font-weight: 500;
+    color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.menu-order-item:hover{
+    background-color: #ff0000;
+    color: #fff;
+}

@@ -1,0 +1,363 @@
+.show-product {
+    width: 100%;
+    margin: auto;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.item {
+    margin: 10px;
+    width: 310px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid #c3c3c3;
+}
+
+.item-product-category {
+    margin: 10px;
+    width: 310px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid #c3c3c3;
+}
+
+.item-product-category:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+    margin-top: 138px;
+}
+
+.item:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.images {
+    overflow: hidden;
+    /* Ẩn phần ảnh thừa ra khỏi khung */
+    border-radius: 20px;
+    width: 100%;
+    height: 270px;
+}
+
+.images img {
+    transition: transform 0.3s ease;
+    width: 50%;
+    height: auto;
+}
+
+.images img:hover {
+    transform: scale(1.2);
+}
+
+.Prev-Next {
+    float: right;
+
+}
+
+.Prev-Next button {
+    width: 80px;
+    margin-left: 30px;
+    border: 2px solid #c3c3c3;
+    border-radius: 30px;
+    padding: 5px 5px;
+    color: red;
+    margin: auto !important;
+}
+
+.Prev-Next button:hover {
+    background-color: red;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.product-slider-container {
+    padding: 10px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.product-details-item {
+    text-decoration: none;
+
+}
+
+.add-Love-list {
+    font-size: 22px;
+    color: red;
+    float: right;
+}
+
+.add-Love-list:hover {
+    color: rgb(186, 0, 0);
+}
+
+.product-item {
+    padding: 20px 20px;
+}
+
+.product-item p {
+    font-family: Poppins-Regular;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.product-item .product-price {
+    color: red;
+}
+
+.sales {
+    text-align: center;
+    width: 100px;
+    background-image: url(../);
+}
+
+.index-lable {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+
+    font-weight: 500;
+}
+
+.go-mobile {
+    font-family: Poppins-Regular;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.go-mobile-all {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-family: Poppins-Regular;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 25px;
+    margin: auto;
+
+    padding: 5px 10px;
+    float: right;
+
+}
+
+.go-mobile-all:hover {
+    color: #ff0000;
+}
+
+.all {
+
+    background: #fff;
+    padding: 50px 20px;
+
+}
+
+.product-item-all {
+
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.product-slider-container {
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.row {
+    padding-left: 55px;
+}
+
+.page-limit {
+    padding: 30px 30px;
+    margin: auto;
+}
+
+.pagedisplay {
+    color: #000;
+    text-decoration: none;
+}
+
+.pagedisplay:hover {
+    color: #ff0000;
+
+}
+
+/* CSS cho các nút chuyển slide tùy chỉnh */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    /* Điều chỉnh kích thước theo ý muốn */
+    height: 60px;
+    /* Điều chỉnh kích thước theo ý muốn */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Điều chỉnh màu sắc theo ý muốn */
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+
+
+}
+
+.owl-prev i,
+.owl-next i {
+    font-size: 20px;
+    /* Điều chỉnh kích thước biểu tượng theo ý muốn */
+}
+
+.owl-prev {
+
+    /* Điều chỉnh vị trí theo ý muốn */
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.owl-next {
+    right: 42px;
+    /* Điều chỉnh vị trí theo ý muốn */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* -------------------------------------------------- */
+.acctions {
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    position: relative;
+
+    margin-bottom: 40px;
+}
+
+.acctions .mobile-acctions {
+    background-image: url(../../public/images/mobileshop.png);
+    width: 35%;
+    height: 300px;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 3%;
+    border-radius: 30px;
+}
+
+.acctions .laptop-acctions {
+    background-image: url(../../public/images/lapTopShop.png);
+    width: 35%;
+    height: 300px;
+    display: inline;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.acctions .Accessory-acctions {
+    background-image: url(../../public/images/PhuKienShop.png);
+    width: 35%;
+    height: 300px;
+    display: inline;
+    margin-right: 3%;
+    border-radius: 30px;
+
+}
+
+.shop-now {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shop-now:hover {
+    color: #000;
+}
+
+.button-shop {
+    position: relative;
+    width: 100%;
+}
+
+.shop-now-button {
+    padding-top: 8px;
+    align-items: center;
+    text-align: center;
+    max-width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 230px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #000;
+    font-weight: 700;
+}
+
+.shop-now-button:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.shop-now-button2 {
+    padding-top: 8px;
+    align-items: center;
+    text-align: center;
+    max-width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 180px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #000;
+    font-weight: 700;
+}
+
+.shop-now-button2:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.shop-now-button3 {
+    padding-top: 8px;
+    align-items: center;
+    text-align: center;
+    max-width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 70px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #000;
+    font-weight: 700;
+}
+
+.shop-now-button3:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}

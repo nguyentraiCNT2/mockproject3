@@ -1,0 +1,88 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.controls {  
+  opacity: 0; /* Mặc định ẩn đi */
+  position: absolute;
+  top: 50%;
+  left: 0; /* Điều chỉnh vị trí nút điều khiển */
+  right: 0; /* Điều chỉnh vị trí nút điều khiển */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.control2,
+.control {
+  background-color: rgba(119, 119, 119, 0.451);
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.control2 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.control {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.control:hover,
+.control2:hover {
+  background-color: rgba(0, 0, 0, 0.451);
+  color: #fff;
+}
+
+#prev {
+  order: -1;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #bbb;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.slider:hover .controls {
+  opacity: 1; /* Hiển thị khi rê chuột vào slider */
+}

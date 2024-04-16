@@ -1,0 +1,44 @@
+.firt-statistial{
+margin: 20px 100px;
+
+display: flex;
+}
+.statistial-item {
+  font-family: Poppins-Regular;
+  font-size: 20px ;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+  width: 20%;
+  height: 200px;
+box-shadow: 2px 2px 4px 2px #b3b3b3ab;
+}
+
+.product-cuont{
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+.user-cuont{
+  border-radius: 50%;
+
+}
+.order-cuont {
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.seccond-statistial{
+  margin: 20px 100px;
+
+display: flex;
+}
+.tong-tien{
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+.category-count{
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+.user-online{
+  border-radius: 50%;
+}
